@@ -1,5 +1,5 @@
 {
-  "name": "tea_ych",
+  "name": "@ych5680/tea_ych",
   "version": "1.0.0",
   "description": "tea",
   "main": "index.js",
@@ -10,5 +10,13 @@
     "tea"
   ],
   "author": "yuchl",
-  "license": "ISC"
+  "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/ych5680/tea_ych.git",
+    "directory": "packages/name"
+  },
+"publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
